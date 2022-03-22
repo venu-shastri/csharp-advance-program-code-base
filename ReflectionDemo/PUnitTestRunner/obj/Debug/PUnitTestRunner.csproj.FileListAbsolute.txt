@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\bin\Debug\PUnitTestRunner.exe.config
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\bin\Debug\PUnitTestRunner.exe
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\bin\Debug\PUnitTestRunner.pdb
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\obj\Debug\PUnitTestRunner.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\obj\Debug\PUnitTestRunner.exe
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\obj\Debug\PUnitTestRunner.pdb
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\bin\Debug\PUnitTestFxLib.dll
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\bin\Debug\PUnitTestFxLib.pdb
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\obj\Debug\PUnitTestRunner.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestRunner\obj\Debug\PUnitTestRunner.csproj.CopyComplete

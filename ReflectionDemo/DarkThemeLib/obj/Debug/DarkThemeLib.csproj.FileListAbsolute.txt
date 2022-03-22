@@ -1,0 +1,6 @@
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib\bin\Debug\DarkThemeLib.dll
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib\bin\Debug\DarkThemeLib.pdb
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib\obj\Debug\DarkThemeLib.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib\obj\Debug\DarkThemeLib.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib\obj\Debug\DarkThemeLib.dll
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib\obj\Debug\DarkThemeLib.pdb

@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestFxLib\bin\Debug\PUnitTestFxLib.dll
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestFxLib\bin\Debug\PUnitTestFxLib.pdb
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestFxLib\obj\Debug\PUnitTestFxLib.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestFxLib\obj\Debug\PUnitTestFxLib.dll
+C:\Users\user\source\repos\ReflectionDemo\PUnitTestFxLib\obj\Debug\PUnitTestFxLib.pdb

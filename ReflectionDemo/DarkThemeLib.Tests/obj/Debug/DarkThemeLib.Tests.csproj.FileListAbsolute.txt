@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\bin\Debug\DarkThemeLib.Tests.dll
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\bin\Debug\DarkThemeLib.Tests.pdb
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\bin\Debug\DarkThemeLib.dll
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\bin\Debug\DarkThemeLib.pdb
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\obj\Debug\DarkThemeLib.Tests.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\obj\Debug\DarkThemeLib.Tests.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\obj\Debug\DarkThemeLib.Tests.csproj.CopyComplete
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\obj\Debug\DarkThemeLib.Tests.dll
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\obj\Debug\DarkThemeLib.Tests.pdb
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\bin\Debug\PUnitTestFxLib.dll
+C:\Users\user\source\repos\ReflectionDemo\DarkThemeLib.Tests\bin\Debug\PUnitTestFxLib.pdb

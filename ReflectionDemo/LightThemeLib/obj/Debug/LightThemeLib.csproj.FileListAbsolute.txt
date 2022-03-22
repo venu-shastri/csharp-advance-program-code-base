@@ -1,0 +1,5 @@
+C:\Users\user\source\repos\ReflectionDemo\LightThemeLib\bin\Debug\LightThemeLib.dll
+C:\Users\user\source\repos\ReflectionDemo\LightThemeLib\bin\Debug\LightThemeLib.pdb
+C:\Users\user\source\repos\ReflectionDemo\LightThemeLib\obj\Debug\LightThemeLib.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ReflectionDemo\LightThemeLib\obj\Debug\LightThemeLib.dll
+C:\Users\user\source\repos\ReflectionDemo\LightThemeLib\obj\Debug\LightThemeLib.pdb
