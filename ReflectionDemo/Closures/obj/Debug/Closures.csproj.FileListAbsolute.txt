@@ -1,0 +1,6 @@
+E:\csharp-advance-program-code-base\ReflectionDemo\Closures\bin\Debug\Closures.exe.config
+E:\csharp-advance-program-code-base\ReflectionDemo\Closures\bin\Debug\Closures.exe
+E:\csharp-advance-program-code-base\ReflectionDemo\Closures\bin\Debug\Closures.pdb
+E:\csharp-advance-program-code-base\ReflectionDemo\Closures\obj\Debug\Closures.csproj.CoreCompileInputs.cache
+E:\csharp-advance-program-code-base\ReflectionDemo\Closures\obj\Debug\Closures.exe
+E:\csharp-advance-program-code-base\ReflectionDemo\Closures\obj\Debug\Closures.pdb
