@@ -33,7 +33,7 @@ namespace ObserverPattern
     {
 
         SecurityDoorState currentState;
-        // List<Action<SecurityDoorState>> _observers = new List<Action<SecurityDoorState>>();
+       
        public event Action<SecurityDoorState> StateChanged;
         //MSIL
         //private Action<SecurityDoorState> StateChanged;
@@ -57,18 +57,7 @@ namespace ObserverPattern
             this.StateChanged.Invoke(this.currentState);//MultiCasting
             
         }
-        ////Add_
-        //public void Subscribe(Action<SecurityDoorState> observer) {
-        //    //  this._observers=  System.Delegate.Combine(this._observers, observer) as Action<SecurityDoorState>;
-        //    this._observers += observer;
-        //}
-        ////Remove_
-        //public void UnSubcribe(Action<SecurityDoorState> observer) {
-
-        //    //  System.Delegate.RemoveAll(this._observers, observer);
-        //    this._observers -= observer;
-
-        //}
+       
 
 
     }
