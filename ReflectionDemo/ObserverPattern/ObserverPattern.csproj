@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{500B8631-4CAC-403C-94B5-6A0F3F648891}</ProjectGuid>
+    <ProjectGuid>{461E84A4-68A3-412F-B8E1-ED17F55BF6F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Closures</RootNamespace>
-    <AssemblyName>Closures</AssemblyName>
+    <RootNamespace>ObserverPattern</RootNamespace>
+    <AssemblyName>ObserverPattern</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LinqInOOPS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
