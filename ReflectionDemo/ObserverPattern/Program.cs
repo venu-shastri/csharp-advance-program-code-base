@@ -33,7 +33,8 @@ namespace ObserverPattern
     {
 
         SecurityDoorState currentState;
-        List<Action<SecurityDoorState>> _observers = new List<Action<SecurityDoorState>>();
+        // List<Action<SecurityDoorState>> _observers = new List<Action<SecurityDoorState>>();
+        Action<SecurityDoorState> _observers;
         
         public void Open()
         {
@@ -48,14 +49,17 @@ namespace ObserverPattern
         }
         void onDoorStateChanged()
         {
-            for(int i = 0; i < this._observers.Count; i++)
-            {
-                this._observers[i].Invoke(this.currentState);
-            }
+            this._observers.Invoke(this.currentState);//MultiCasting
             
         }
-        public void Subscribe(Action<SecurityDoorState> observer) { this._observers.Add(observer); }
-        public void UnSubcribe(Action<SecurityDoorState> observer) { this._observers.Remove(observer); }
+        public void Subscribe(Action<SecurityDoorState> observer) {
+          this._observers=  System.Delegate.Combine(this._observers, observer) as Action<SecurityDoorState>;
+        }
+        public void UnSubcribe(Action<SecurityDoorState> observer) {
+
+            System.Delegate.RemoveAll(this._observers, observer);
+
+        }
 
 
     }
