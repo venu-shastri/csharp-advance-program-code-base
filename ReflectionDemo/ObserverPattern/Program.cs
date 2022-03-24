@@ -34,8 +34,13 @@ namespace ObserverPattern
 
         SecurityDoorState currentState;
         // List<Action<SecurityDoorState>> _observers = new List<Action<SecurityDoorState>>();
-        Action<SecurityDoorState> _observers;
-        
+       public event Action<SecurityDoorState> StateChanged;
+        //MSIL
+        //private Action<SecurityDoorState> StateChanged;
+        //public event property StateChanged { .add(+=) , .remove(-=}
+        //public void add_StateChanged(Action<SecurityDoorState> observer)
+        //public void remove_StateChanged(Action<SecurityDoorState> observer)
+
         public void Open()
         {
             this.currentState = SecurityDoorState.OPEN;
@@ -49,17 +54,21 @@ namespace ObserverPattern
         }
         void onDoorStateChanged()
         {
-            this._observers.Invoke(this.currentState);//MultiCasting
+            this.StateChanged.Invoke(this.currentState);//MultiCasting
             
         }
-        public void Subscribe(Action<SecurityDoorState> observer) {
-          this._observers=  System.Delegate.Combine(this._observers, observer) as Action<SecurityDoorState>;
-        }
-        public void UnSubcribe(Action<SecurityDoorState> observer) {
+        ////Add_
+        //public void Subscribe(Action<SecurityDoorState> observer) {
+        //    //  this._observers=  System.Delegate.Combine(this._observers, observer) as Action<SecurityDoorState>;
+        //    this._observers += observer;
+        //}
+        ////Remove_
+        //public void UnSubcribe(Action<SecurityDoorState> observer) {
 
-            System.Delegate.RemoveAll(this._observers, observer);
+        //    //  System.Delegate.RemoveAll(this._observers, observer);
+        //    this._observers -= observer;
 
-        }
+        //}
 
 
     }
@@ -74,8 +83,8 @@ namespace ObserverPattern
             Action<SecurityDoorState> logger_observer = new Action<SecurityDoorState>(_logWriter.Write);
 
             SecurityDoor _door = new SecurityDoor();
-            _door.Subscribe(owner_observer);
-            _door.Subscribe(logger_observer);
+            _door.StateChanged += owner_observer;// add_StateChanged(owner_observer);
+            _door.StateChanged += logger_observer;//add_StateChanged(logger_observer);
             _door.Open();
             _door.Close();
 
