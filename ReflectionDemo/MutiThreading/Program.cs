@@ -62,11 +62,13 @@ namespace MutiThreading
              * T1,T3,T4,T5
              * T2,T3,T4,T5
              */ 
-            new System.Threading.Thread(Singleton.Instance.Operation_One) {Name="T1" }.Start();
-            new System.Threading.Thread(Singleton.Instance.Operation_One) { Name = "T2" }.Start();
-            new System.Threading.Thread(Singleton.Instance.Operation_Two) { Name = "T3" }.Start();
-            new System.Threading.Thread(Singleton.Instance.Operation_Three) { Name = "T4" }.Start();
-            new System.Threading.Thread(Singleton.Instance.Operation_Four) { Name="T5"}.Start();
+           // new System.Threading.Thread(Singleton.Instance.Operation_One) {Name="T1" }.Start();
+           // new System.Threading.Thread(Singleton.Instance.Operation_One) { Name = "T2" }.Start();
+           // new System.Threading.Thread(Singleton.Instance.Operation_Two) { Name = "T3" }.Start();
+            //new System.Threading.Thread(Singleton.Instance.Operation_Two) { Name = "T4" }.Start();
+            new System.Threading.Thread(Singleton.Instance.Operation_Three) { Name = "T5" }.Start();
+            new System.Threading.Thread(Singleton.Instance.Operation_Three) { Name = "T6" }.Start();
+            //new System.Threading.Thread(Singleton.Instance.Operation_Four) { Name="T6"}.Start();
         }
 
     }
