@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading.Tasks;//TPL
 
 namespace ObserverPattern
 {
@@ -54,7 +54,18 @@ namespace ObserverPattern
         }
         void onDoorStateChanged()
         {
-            this.StateChanged.Invoke(this.currentState);//MultiCasting
+            //this.StateChanged.Invoke(this.currentState);//MultiCasting
+            var observersList = this.StateChanged.GetInvocationList();
+            Action[] _observers = new Action[observersList.Length];
+
+            for(int i = 0; i < observersList.Length; i++)
+            {
+               Action<SecurityDoorState> observer= observersList[i] as Action<SecurityDoorState>;
+              _observers[i] = new Action(() => { observer.Invoke(this.currentState); });
+            }
+           // observersList.CopyTo(_observers, 0);
+            Parallel.Invoke(_observers);
+            
             
         }
        
