@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceCode", "Performa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{8760BACC-03FE-4D7E-8B99-739259FC514C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{C967D822-DA5F-4355-BC75-F9E5148FEF3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManagement", "MemoryManagement\MemoryManagement.csproj", "{33999D16-09A7-41FD-B77E-79D5E5AC3E1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{8760BACC-03FE-4D7E-8B99-739259FC514C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8760BACC-03FE-4D7E-8B99-739259FC514C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8760BACC-03FE-4D7E-8B99-739259FC514C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C967D822-DA5F-4355-BC75-F9E5148FEF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C967D822-DA5F-4355-BC75-F9E5148FEF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C967D822-DA5F-4355-BC75-F9E5148FEF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C967D822-DA5F-4355-BC75-F9E5148FEF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33999D16-09A7-41FD-B77E-79D5E5AC3E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33999D16-09A7-41FD-B77E-79D5E5AC3E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33999D16-09A7-41FD-B77E-79D5E5AC3E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33999D16-09A7-41FD-B77E-79D5E5AC3E1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

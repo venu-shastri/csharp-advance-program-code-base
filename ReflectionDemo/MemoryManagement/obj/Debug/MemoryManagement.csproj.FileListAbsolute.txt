@@ -1,0 +1,6 @@
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\bin\Debug\MemoryManagement.exe.config
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\bin\Debug\MemoryManagement.exe
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\bin\Debug\MemoryManagement.pdb
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.csproj.CoreCompileInputs.cache
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.exe
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.pdb
