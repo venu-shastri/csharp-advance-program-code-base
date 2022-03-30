@@ -4,3 +4,4 @@ E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\bin\Debug\Me
 E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.csproj.CoreCompileInputs.cache
 E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.exe
 E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.pdb
+E:\csharp-advance-program-code-base\ReflectionDemo\MemoryManagement\obj\Debug\MemoryManagement.csproj.AssemblyReference.cache

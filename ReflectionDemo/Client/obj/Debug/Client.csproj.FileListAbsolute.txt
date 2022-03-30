@@ -1,0 +1,10 @@
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\bin\Debug\Client.exe.config
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\bin\Debug\Client.exe
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\bin\Debug\Client.pdb
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\bin\Debug\TimerServiceContractLib.dll
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\bin\Debug\TimerServiceContractLib.pdb
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\obj\Debug\Client.csproj.CopyComplete
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\obj\Debug\Client.exe
+E:\csharp-advance-program-code-base\ReflectionDemo\Client\obj\Debug\Client.pdb
